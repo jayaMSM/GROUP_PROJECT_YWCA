@@ -67,6 +67,7 @@ h1{
     animation-name: animation2;
     animation-duration: 6s;
     animation-iteration-count: 1; 
+    color: whitesmoke;
 }
 
 @keyframes animation2 {
