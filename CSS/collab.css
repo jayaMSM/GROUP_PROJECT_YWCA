@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+  
+  
+}
+.navbar{
+    width: 100%;
+    
+    font-family: monospace;
+   
+ }
+ nav{
+    
+    background:linear-gradient(#000000,#00070c,#000000,#fffdfd);
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    z-index: 999;
+ 
+ }
+ 
+ 
+.product li{
+    list-style: none;
+    margin-bottom: 2em;
+    margin-left: 20px;
+   
+}
+ 
+.product .image{
+    margin: 1em 0 0 2em;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:grab;
+ 
+}
+ 
+.product{
+    width: 100px;
+}
+ 
+.fas{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 0;
+   
+}
+ 
+.dropdown{
+    display: none;
+    background-color: #fff;
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+}
+ 
+ 
+.product:hover .dropdown{
+    display: block;
+   
+}
+ 
+ 
+.nav{
+   
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+   
+   
+}
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    left: 90px;
+}
+.main-nav ul li{
+    list-style: none;
+   
+}
+ 
+.main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1em;
+   
+}
+.flex{
+    display: flex;
+    margin-left: 15em;
+}
+
+body{
+    background-color: #000;
+    height: 230vh;
+}
+
+.collab{
+    width: 100%;
+    font-family: monospace;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+.heading{
+    font-size: 2.5rem;
+    margin-top: 1em ;
+    margin-bottom: -2em;
+}
+.text{
+    margin-top: 2em;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 33px;
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animation1{
+    0% {top:-200%;}
+    100%{top:0;}
+  }
+
+span{
+    color: rgb(125, 3, 125);
+}
+h2{
+    font-size: 2rem;
+    padding: 2em;
+}
+
+.pic1{
+    width: 950px;
+    margin-top: 5em;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    animation-name: animation2;
+    animation-duration: 9s;
+    animation-iteration-count: 1; 
+}
+
+@keyframes animation2{
+    from{left:-600%;}
+      to{left:100px;}
+}
+
+.pics img{
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.float{
+    
+    position: absolute;
+     top: 160%;
+     left: 0;
+     right: 40px;
+     animation-name: animation3;
+     animation-duration: 8s;
+     animation-iteration-count: 1;
+}
+
+@keyframes animation3{
+    0% {top:-400%;}
+    100%{top:160%;}
+  }
+ 
+.paragraph{
+    width: 50%;
+    padding: 4em 0 0 7em;
+   
+}
+
+
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+h4{
+    font-size: 1.5rem;
+    position: relative;
+}
+.anchor{
+    color: #fff;
+    text-decoration: none;
+}
+    
+
+.anchor::after{
+   content:"";
+   height: 2px;
+   width: 0;
+   background: #fff;
+   display: block;
+   transition: .3s ease-in-out;
+   
+}
+
+.anchor:hover::after{
+    content:"";
+    height: 2px;
+    width: 280px;
+    background: #fff;
+    display: block;
+    
+    
+ }
+.fas{
+    color: #fff;
+}
+
+.fas::after{
+    content:"";
+    height: 2px;
+    width: 0;
+    background: #fff;
+    display: block;
+    transition: .3s ease-in-out;
+    position: absolute;
+    left: 283px;
+    top: 12px;
+
+
+    
+ }
+ 
+ .fas:hover::after{
+     content:"";
+     height: 2px;
+     width: 20px;
+     background: #fff;
+     display: block;
+ }
+.side-pic{
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+  body {
+	background-color: blue;
+  }
+  .navbar{
+    flex: 50%;
+    width: 50%;
+   }
+  .collab {
+	width: 50%;
+  }
+  div{
+	font-size: 50px;
+	padding: 50px;
+/* 	border: 8px solid black;
+ */	background:none;
+  }
+}

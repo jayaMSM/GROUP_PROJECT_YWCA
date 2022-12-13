@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   }
+
+   html{
+    overflow: hidden;
+   }
+
+   body{
+    font-family: 'monospace';
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #000;
+}
+
+/* .navbar{
+    
+    font-family: monospace;
+   
+ } */
+ nav{
+    background:linear-gradient(#000000,#00070c,#000000,#fffdfd);
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    z-index: 1;
+ 
+ }
+ 
+ 
+.product li{
+    list-style: none;
+    margin-bottom: 2em;
+    margin-left: 20px;
+   
+}
+ 
+.product .image{
+    margin: 1em 0 0 2em;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:grab;
+ 
+}
+ 
+.product{
+    width: 100px;
+}
+ 
+.fas{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 0;
+   
+}
+ 
+.dropdown{
+    display: none;
+    background-color: #fff;
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+}
+ 
+ 
+.product:hover .dropdown{
+    display: block;
+   
+}
+ 
+ 
+.nav{
+   
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+   
+   
+}
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    left: 90px;
+}
+.main-nav ul li{
+    list-style: none;
+   
+}
+ 
+.main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1em;
+   
+}
+.flex{
+    display: flex;
+    margin-left: 15em;
+}
+ 
+ 
+  .build{
+    padding-top: 3rem;
+    position: absolute;
+    top: 150px;
+    animation-name: animation2;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    width: 100%;
+  }
+
+  @keyframes animation2{
+    from{left:-200%;}
+      to{left:0%;}
+}
+
+   h1{
+
+    font-size:90px;
+    color: aliceblue;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+   }
+   @keyframes animation1{
+     0% {top:-40%;}
+     100%{top:50px;}
+   }
+   p{
+    padding: 20px;
+    font-size: 30px;
+    color: aliceblue;
+    
+   }
+   
+   img{
+       height: 50%;
+       width: 50%px;
+       
+       margin-top: 70px;
+       margin-left:15px;
+       /* position: absolute;
+       animation-direction:alternate-reverse;
+       animation-name:animation3;
+       animation-duration: 3s;
+       animation-iteration-count: 1;
+       animation-delay: 2s; */
+
+    }
+   /* @keyframes animation3{
+       0%{top:-40%;}
+       100%{top:25px}
+   }  */
+   .form{
+       margin: 20px;
+       position: absolute;
+       top: 290px;
+       left: 270px;
+       animation-name:animation4;
+       animation-duration: 6s;
+       animation-iteration-count: 1;
+   }
+   @keyframes animation4{
+       0%{right:-150%;}
+       100%{right:330px}
+   }
+   /* #sign{
+       margin: 0;
+       padding: 0;
+       color:white;
+       height: 40px;
+       width: 200px;
+       background-color: blueviolet;
+       border: none;
+       padding: 3px 3px 3px 3px;
+       position: relative;
+       animation-direction: alternate;
+       animation-name:animation5;
+       animation-duration: 4s;
+       animation-iteration-count: 1;
+       animation-delay: 4s;
+
+   }
+   @keyframes animation5{
+       0%{left:-40%;}
+       100%{left:25px}
+   } */
+   .input{
+       height: 40px;
+       width: 200px;
+       background-color:rgb(249, 248, 251);
+       color:aliceblue;
+       text-align: center;
+        }
+   button{
+       height: 40px;
+       width: 200px;
+       margin-left:20px;
+       background-color:rgb(125, 3, 125);
+       border: none;
+/*        border: 2px solid white;
+ */       color: aliceblue;
+      /*  position: relative;
+       animation-direction:alternate-reverse;
+       animation-name:animation7;
+       animation-duration: 2s;
+       animation-iteration-count: 1;
+   }
+   @keyframes animation7{
+       0%{left:-50%;}
+       100%{left:25px}
+    */
+   /* #trial{
+       border-radius: 15px 15px 15px 15px;
+       margin-top: 30px;
+       position: relative;
+       animation-direction: normal;
+       animation-name:animation8;
+       animation-duration: 5s;
+       animation-iteration-count: 1; */
+       
+
+   }
+   @keyframes animation8{
+       0%{right:-50%;}
+       100%{right:25px}
+   }
+   .logo{
+       display:flex;
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       top: 350px;
+       left: 360px;
+       animation-name:animation9;
+       animation-duration: 8s;
+       animation-iteration-count: 1;
+       
+
+   }
+   @keyframes animation9{
+       from{top:200%;}
+       to{top:350px;}
+   }
+       
+   
+   .space{
+    
+    width: 100%;
+   position: absolute;
+   top: 350px;
+   left: 5px;
+   animation-name:animation10;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   
+
+   }
+   @keyframes animation10{
+    from{left:-150%;}
+    to{left:5px;}
+   }
+   

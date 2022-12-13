@@ -1,0 +1,30 @@
+
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  body{
+     
+     font-family:monospace;
+     }
+
+  a{
+    float: right;
+    color: aliceblue;
+    font-size: xx-large;
+    padding-top: 40px;
+    padding-right: 50px;
+    text-shadow: 5px 2px 5px whitesmoke;
+    }
+  
+  p{
+    color: white;
+    font-size: xx-large;
+    text-shadow:5px 2px 5px whitesmoke ;
+    float: right;
+    margin-right:20px;
+    padding-top: 40px;
+  }

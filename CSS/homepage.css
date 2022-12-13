@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.navbar{
+    width: 100%;
+    
+    font-family: monospace;
+   
+ }
+ nav{
+    background:linear-gradient(#000000,#234561,rgb(17, 1, 87));
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    z-index: 999;
+    
+ 
+ }
+
+ .flex{
+    display: flex;
+    margin-left: 15em;
+}
+ 
+video{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+ 
+.product li{
+    list-style: none;
+    margin-bottom: 2em;
+    margin-left: 20px;
+   
+}
+ 
+.product .image{
+    margin: 1em 0 0 2em;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:grab;
+ 
+}
+ 
+.product{
+    width: 100px;
+}
+ 
+.fas{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 0;
+   
+}
+ 
+.dropdown{
+    display: none;
+    background-color: #fff;
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+}
+ 
+ 
+.product:hover .dropdown{
+    display: block;
+   
+}
+ 
+ 
+.nav{
+   
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+   
+   
+}
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    left: 90px;
+}
+.main-nav ul li{
+    list-style: none;
+   
+}
+ 
+.main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1em;
+   
+}
+.container {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 50px;
+    padding: 15px 0;
+    background-color: black;
+    opacity: 70%;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+ 
+.container .github-image{
+    width: 15%;
+}
+ 
+.container .text{
+    width: 70%;
+    color: gray;
+}
+ 
+h3 {
+    font-size: 15px;
+    color: white;
+}
+ 
+h3:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    height:100vh;
+    font-family: monospace;
+    background:linear-gradient(#524343,#666666,#1e0265);
+
+
+}
+
+.sign-up-forms{
+              width:300px;
+              
+              box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+              background: rgb(202, 223, 239);
+              padding:15px 15px;
+              margin-left: 35em;
+              margin-top: 2em;
+              border-radius: 10px 10px;
+              text-align: center;
+}
+
+.sign-up-forms h1{
+                color:rgb(86, 49, 115);
+                padding: 0 20px;
+                margin-bottom: 20px;
+} 
+
+.input-box{
+          border-radius: 20px;
+          padding: 10px;
+          margin: 10px 0;
+          width:100%;
+          border: 1px solid black;
+}
+
+button{
+      color: rgb(230, 228, 243);
+      width:100%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      margin: 10px 0;
+      border: none;
+      outline:none;
+      cursor: progress;
+}
+
+.signup-btn{
+         background-color: rgb(163, 140, 197);
+}
+
+.linkedin{
+        background-color: rgb(106, 83, 169);
+}
+
+.sign-in{
+       padding: 15px 15px;
+}

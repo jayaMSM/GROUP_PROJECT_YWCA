@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+   }
+
+   body{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    font-family: monospace;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.1l1kgWl8CpxV4BnIFTsWgwHaDz&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+   
+   nav{
+    background:linear-gradient(#000000,#00070c,#000000,#fffdfd);
+     width: 100%;
+     height: 15vh;
+     position: fixed;
+     top: 0;
+     z-index: 999;
+    
+   }
+    
+    
+   .product li{
+     list-style: none;
+     margin-bottom: 2em;
+     margin-left: 20px;
+    
+   }
+    
+   .product .image{
+     margin: 1em 0 0 2em;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     cursor:grab;
+    
+   }
+    
+   .product{
+     width: 100px;
+   }
+    
+   .fas{
+     color: #fff;
+     position: absolute;
+     top: 100px;
+     left: 0;
+    
+   }
+    
+   .dropdown{
+     display: none;
+     background-color: #fff;
+     width: 120px;
+     height: 200px;
+     border-radius: 5px;
+     margin-top: 50px;
+    
+   }
+    
+    
+   .product:hover .dropdown{
+     display: block;
+    
+   }
+    
+    
+   .nav{
+    
+     font-size: 1rem;
+     color: #000;
+     text-decoration: none;
+    
+    
+   }
+   .main-nav ul{
+     display: flex;
+     justify-content: center;
+     position: fixed;
+     top: 30px;
+     left: 90px;
+   }
+   .main-nav ul li{
+     list-style: none;
+    
+   }
+    
+   .main-nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.1rem;
+     margin-left: 1em;
+    
+   }
+   .flex{
+     display: flex;
+     margin-left: 15em;
+   }
+    
+   .m1{
+    
+     font-size:3rem;
+     color:aliceblue;
+     position: absolute;
+    top: 70px;
+    left: 40px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    
+   }
+    
+   @keyframes animation1{
+    0% {top:-40%;}
+    100%{top:70px;}
+  }
+    
+   .m2{
+     font-size:xx-large;
+     color: aliceblue;
+     margin-top: 30px;
+     position: absolute;
+       top: 350px;
+       left: 60px;
+       /* animation-name:animation9;
+       animation-duration: 8s;
+       animation-iteration-count: 1;
+     */
+   }
+    
+   /* @keyframes animation9{
+    0%{top:200%;}
+    100%{top:120px;}
+} */
+    
+   button{
+    background-color: rgb(125, 3, 125);
+    color: aliceblue;
+    font-size: x-large;
+    padding: 17px 17px 17px 17px;
+    margin-top: 30px;
+    border-radius: 10px 10px 10px 10px; 
+   }
+
+  
+    
+   #sign-up{
+    background-color: rgb(125, 3, 125);
+    position: absolute;
+    width: 30%;
+    top: 250px;
+       right: 700px;
+       animation-name:animation7;
+       animation-duration: 9s;
+       animation-iteration-count: 1;
+   }
+    
+   @keyframes animation7{
+    0%{left:-150%;}
+    100%{left:100px}
+}
+    
+    #trial{
+      position: absolute;
+      top: 250px;
+      right: 100px ;
+      animation-name:animation9;
+      animation-duration: 9s;
+      animation-iteration-count: 1;
+    
+    }
+    
+    @keyframes animation9{
+      0%{right:-150%;}
+      100%{right:100px}
+  }
+   
