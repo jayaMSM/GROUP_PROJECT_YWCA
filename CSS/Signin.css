@@ -48,6 +48,7 @@ body {
 .github-head {
   /* font-size: 28px; */
   margin-bottom: -40px;
+  color: #f6f8fa;
 }
 
 .login{
@@ -97,8 +98,7 @@ input:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: 
-#0087ca;
+  background-color: #0087ca;
   transform-origin: bottom right; 
   transition: transform 0.25s ease-out;
 }
@@ -143,8 +143,7 @@ input:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: 
-  #0087ca;
+    background-color:   #0087ca;
     transform-origin: bottom right; 
     transition: transform 0.25s ease-out;
   }
