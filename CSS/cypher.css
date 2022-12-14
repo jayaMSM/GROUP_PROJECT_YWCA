@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background:#000;
-    height: 165vh;
+    height: 175vh;
     font-family: monospace;
 }
 
@@ -106,7 +106,7 @@ h1{
     margin-left: 50px;
     width: 100%;
   position: absolute;
-  top: 100px;
+  top: 130px;
   right: -52px ;
   animation-name:animation4;
   animation-duration: 6s;
@@ -130,7 +130,7 @@ em{
 }
 .workflow{
     position: absolute;
-    top: 130px;
+    top: 170px;
     left: 5px;
     animation-name: animation1;
     animation-duration: 5s;
@@ -138,7 +138,7 @@ em{
    }
    @keyframes animation1{
     0% {top:-400%;}
-    100%{top:130px;}
+    100%{top:170px;}
   }
 
 .box1{
@@ -152,7 +152,7 @@ em{
     border-radius: 10px;
     margin-top: 20px;  
     position: absolute;
-    top: 400px;
+    top: 430px;
     left: 130px;
     animation-name: animation2;
     animation-duration: 9s;
