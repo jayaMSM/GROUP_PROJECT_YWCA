@@ -6,10 +6,10 @@
 
    body{
     width: 100%;
-    height: 100vh;
+    height: 190vh;
     background-color: #000;
     font-family: monospace;
-    background-image: url(https://tse3.mm.bing.net/th?id=OIP.1l1kgWl8CpxV4BnIFTsWgwHaDz&pid=Api&P=0);
+    background-image: url(/CSS/image-3\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -109,8 +109,8 @@
      font-size:3rem;
      color:aliceblue;
      position: absolute;
-    top: 70px;
-    left: 40px;
+    top: 100px;
+    left: 80px;
     animation-name: animation1;
     animation-duration: 4s;
     animation-iteration-count: 1;
@@ -119,7 +119,7 @@
     
    @keyframes animation1{
     0% {top:-40%;}
-    100%{top:70px;}
+    100%{top:100px;}
   }
     
   .m2{
@@ -128,8 +128,8 @@
     text-align: center;
     margin-top: 80px;
     position: absolute;
-      top: 290px;
-      left: 300px;
+      top: 700px;
+      left: 320px;
       animation-name:animation9;
       animation-duration: 8s;
       animation-iteration-count: 1;
@@ -137,7 +137,7 @@
   }
   
   @keyframes animation9{
-   0%{top:-700%;}
+   0%{top:-200%;}
    100%{top:300px;}
 }
  
