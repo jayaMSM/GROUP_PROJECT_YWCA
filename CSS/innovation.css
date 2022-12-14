@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
  
 
@@ -112,7 +113,7 @@
      font-size: 1.5rem;
      padding: 5rem;
      position: absolute;
-     top: 20px;
+     top: 40px;
      left: 45px;
      animation-name: animation1;
      animation-duration: 6s;
@@ -120,7 +121,7 @@
  }
  @keyframes animation1{
     0% {top:-400%;}
-    100%{top:25px;}
+    100%{top:40px;}
   }
   
   
@@ -131,6 +132,7 @@
   
  .codespaces{
      width: 100%;
+     height: 70vh;
      display: flex;
      position: absolute;
      top: 125%;
@@ -165,7 +167,7 @@
     width: 80%;
     height: 70%;
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 130px;
     animation-name: animation2;
     animation-duration: 9s;
