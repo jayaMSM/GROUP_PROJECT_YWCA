@@ -7,7 +7,7 @@
  }
 
  body{
-  height: 280vh;
+  height: 290vh;
   background: #000;
   font-family: monospace;
 }
@@ -166,7 +166,7 @@ nav{
  .cat{
   width: 100%;
   position: absolute;
-  top: 50px;
+  top: 90px;
   right: 10px ;
   animation-name:animation4;
   animation-duration: 3s;
