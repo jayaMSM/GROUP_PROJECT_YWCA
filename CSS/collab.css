@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    min-height: 100vh;
-  
-  
-}
+
 .navbar{
     width: 100%;
     
@@ -104,7 +100,7 @@ body{
 
 body{
     background-color: #000;
-    height: 230vh;
+    height: 240vh;
 }
 
 .collab{
@@ -123,7 +119,7 @@ body{
     margin-top: 2em;
     line-height: 50px;
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 33px;
     animation-name: animation1;
     animation-duration: 10s;
@@ -132,7 +128,7 @@ body{
 
 @keyframes animation1{
     0% {top:-200%;}
-    100%{top:0;}
+    100%{top:50px;}
   }
 
 span{
@@ -147,7 +143,7 @@ h2{
     width: 950px;
     margin-top: 5em;
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 100px;
     animation-name: animation2;
     animation-duration: 9s;
@@ -167,7 +163,7 @@ h2{
 .float{
     
     position: absolute;
-     top: 160%;
+     top: 170%;
      left: 0;
      right: 40px;
      animation-name: animation3;
@@ -177,7 +173,7 @@ h2{
 
 @keyframes animation3{
     0% {top:-400%;}
-    100%{top:160%;}
+    100%{top:170%;}
   }
  
 .paragraph{
