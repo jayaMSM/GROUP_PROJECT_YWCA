@@ -21,8 +21,9 @@
     background:linear-gradient(#000000,#234561,rgb(17, 1, 87));
     width: 100%;
     height: 15vh;
+
     position: fixed;
-    z-index: 1;
+    z-index: 999;
  
  }
  
@@ -136,7 +137,7 @@
    .cat{
        width: 100%;
        position: absolute;
-       top: 50px;
+       top: 70px;
        right: 10px ;
        animation-name:animation4;
        animation-duration: 3s;
@@ -181,11 +182,12 @@
    }
    
    .box {
-    
+       
        display: grid;
        grid-template-columns: 1fr 1fr;
        gap: 15px 2em;
-       margin-top: 130px;
+       margin-top: 120px;
+       
        
      }
    
