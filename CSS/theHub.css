@@ -106,18 +106,22 @@
  
  
   .build{
+    padding: 20px;
+    font-size: 30px;
+    color: aliceblue;
     padding-top: 3rem;
     position: absolute;
-    top: 150px;
+    left: 110px;
+    top: 170px;
     animation-name: animation2;
     animation-duration: 10s;
     animation-iteration-count: 1;
-    width: 100%;
+    width: 80%;
   }
 
   @keyframes animation2{
     from{left:-200%;}
-      to{left:0%;}
+      to{left: 110px;}
 }
 
    h1{
@@ -126,21 +130,15 @@
     color: aliceblue;
     padding: 20px;
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 80px;
+    left: 100px;
     animation-name: animation1;
     animation-duration: 3s;
     animation-iteration-count: 1;
    }
    @keyframes animation1{
      0% {top:-40%;}
-     100%{top:50px;}
-   }
-   p{
-    padding: 20px;
-    font-size: 30px;
-    color: aliceblue;
-    
+     100%{top:80px;}
    }
    
    img{
@@ -164,7 +162,7 @@
    .form{
        margin: 20px;
        position: absolute;
-       top: 290px;
+       top: 340px;
        left: 270px;
        animation-name:animation4;
        animation-duration: 6s;
@@ -240,7 +238,7 @@
        width: 100px;
        height: 100px;
        position: absolute;
-       top: 350px;
+       top: 420px;
        left: 360px;
        animation-name:animation9;
        animation-duration: 8s;
@@ -250,15 +248,20 @@
    }
    @keyframes animation9{
        from{top:200%;}
-       to{top:350px;}
+       to{top:420px;}
    }
        
-   
+   .para1{
+    font-size: 20px;
+   }
    .space{
+    padding: 20px;
     
+    color: aliceblue;
+    font-size: 10px;
     width: 100%;
    position: absolute;
-   top: 350px;
+   top: 410px;
    left: 5px;
    animation-name:animation10;
    animation-duration: 10s;
