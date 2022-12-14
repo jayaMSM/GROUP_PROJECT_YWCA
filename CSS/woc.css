@@ -128,7 +128,7 @@
     text-align: center;
     margin-top: 80px;
     position: absolute;
-      top: 700px;
+      top: 800px;
       left: 320px;
       animation-name:animation9;
       animation-duration: 8s;
@@ -156,7 +156,7 @@
     background-color: rgb(125, 3, 125);
     position: absolute;
     width: 30%;
-    top: 250px;
+    top: 350px;
        right: 700px;
        animation-name:animation7;
        animation-duration: 9s;
@@ -170,7 +170,7 @@
     
     #trial{
       position: absolute;
-      top: 250px;
+      top: 350px;
       right: 100px ;
       animation-name:animation9;
       animation-duration: 9s;
@@ -182,4 +182,6 @@
       0%{right:-150%;}
       100%{right:100px}
   }
+
+  
    
