@@ -9,12 +9,13 @@
     height: 190vh;
     background-color: #000;
     font-family: monospace;
-    background-image: url(/image_3.jpeg);
+     }
+img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
- }
 
+}
    
    nav{
     background:linear-gradient(#000000,#234561,rgb(17, 1, 87));
