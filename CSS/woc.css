@@ -9,7 +9,7 @@
     height: 190vh;
     background-color: #000;
     font-family: monospace;
-    background-image: url(/CSS/image_3.png);
+    background-image: url(/image_3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,12 +124,12 @@
     
   .m2{
     font-size:xx-large;
-    color: rgb(248, 123, 248);
+    color: rgb(122, 1, 122);
     text-align: center;
     margin-top: 80px;
     position: absolute;
       top: 800px;
-      left: 320px;
+      left: 400px;
       animation-name:animation9;
       animation-duration: 8s;
       animation-iteration-count: 1;
@@ -157,14 +157,14 @@
     position: absolute;
     width: 30%;
     top: 350px;
-       right: 700px;
+       right: 790px;
        animation-name:animation7;
        animation-duration: 9s;
        animation-iteration-count: 1;
    }
     
    @keyframes animation7{
-    0%{left:-150%;}
+    0%{left:-300%;}
     100%{left:100px}
 }
     
