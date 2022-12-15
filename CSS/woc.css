@@ -9,11 +9,11 @@
     height: 190vh;
     background-color: #000;
     font-family: monospace;
-    /* background-image: url(/bg.jpg);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
- */
+ 
 }
    
    nav{
