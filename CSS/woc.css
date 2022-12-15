@@ -161,7 +161,7 @@
     
    @keyframes animation7{
     0%{left:-300%;}
-    100%{left:100px}
+    100%{left:300px}
 }
     
     #trial{
@@ -175,7 +175,7 @@
     }
     
     @keyframes animation9{
-      0%{right:-80%;}
+      0%{right:-200%;}
       100%{right:400px}
   }
 
