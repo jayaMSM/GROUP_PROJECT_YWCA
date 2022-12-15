@@ -152,7 +152,7 @@
     background-color: rgb(125, 3, 125);
     position: absolute;
     width: 30%;
-    top:10%;
+    top:100px;
        right: 100px;
        animation-name:animation7;
        animation-duration: 9s;
@@ -166,7 +166,7 @@
     
     #trial{
       position: absolute;
-      top:10%;
+      top:100px;
       right: 50px ;
       animation-name:animation9;
       animation-duration: 9s;
